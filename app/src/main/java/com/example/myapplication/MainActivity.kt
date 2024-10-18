@@ -83,7 +83,8 @@ fun BasicColumn(modifier: Modifier) {
                 color = Color.Red)
 
         Spacer(modifier = Modifier.padding(0.dp))
-        Text("20220140153")
+        Text("20220140153",
+            fontSize = 30.sp,)
     }
 }
 
