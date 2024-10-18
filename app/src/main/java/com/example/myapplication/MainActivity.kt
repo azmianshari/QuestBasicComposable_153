@@ -81,6 +81,8 @@ fun BasicColumn(modifier: Modifier) {
                 fontSize = 18.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.Red)
+
+        Spacer(modifier = Modifier.padding(0.dp))
     }
 }
 
