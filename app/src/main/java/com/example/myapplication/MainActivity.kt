@@ -15,6 +15,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontStyle
@@ -77,7 +78,9 @@ fun BasicColumn(modifier: Modifier) {
             fontWeight = FontWeight.Normal)
         Spacer(modifier = Modifier.padding(0.dp))
         Text("Muhammad Azmi Anshari",
-                fontSize = 18.sp,)
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Red)
     }
 }
 
