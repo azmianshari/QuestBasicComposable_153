@@ -95,7 +95,8 @@ fun BasicColumn(modifier: Modifier) {
             contentDescription = "",
             modifier = Modifier
                 .padding(16.dp)
-        )
+                .size(235.dp, 800.dp)
+                .clip(CircleShape))
     }
 }
 
