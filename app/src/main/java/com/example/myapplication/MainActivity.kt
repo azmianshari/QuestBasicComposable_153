@@ -83,6 +83,7 @@ fun BasicColumn(modifier: Modifier) {
                 color = Color.Red)
 
         Spacer(modifier = Modifier.padding(0.dp))
+        Text("20220140153")
     }
 }
 
