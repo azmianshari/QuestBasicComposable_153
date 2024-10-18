@@ -71,7 +71,7 @@ fun BasicColumn(modifier: Modifier) {
                 .clip(CircleShape)
         )
 
-
+        Spacer(modifier = Modifier.padding(5.dp))
     }
 }
 
