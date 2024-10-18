@@ -93,6 +93,8 @@ fun BasicColumn(modifier: Modifier) {
         Image(
             painter = painterResource(id = R.drawable.pe),
             contentDescription = "",
+            modifier = Modifier
+                .padding(16.dp)
         )
     }
 }
