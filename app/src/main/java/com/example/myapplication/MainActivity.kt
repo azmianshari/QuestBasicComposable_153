@@ -91,7 +91,7 @@ fun BasicColumn(modifier: Modifier) {
         Spacer(modifier = Modifier.padding(0.dp))
 
         Image(
-            painter = painterResource(id = R.drawable.pe),
+            painter = painterResource(id = R.drawable.foto),
             contentDescription = "",
             modifier = Modifier
                 .padding(16.dp)
