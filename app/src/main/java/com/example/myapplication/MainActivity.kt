@@ -89,6 +89,10 @@ fun BasicColumn(modifier: Modifier) {
             fontSize = 30.sp,)
 
         Spacer(modifier = Modifier.padding(0.dp))
+
+        Image(
+            painter = painterResource(id = R.drawable.pe),
+        )
     }
 }
 
