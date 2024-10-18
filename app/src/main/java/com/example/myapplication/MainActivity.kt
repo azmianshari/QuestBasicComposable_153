@@ -92,6 +92,7 @@ fun BasicColumn(modifier: Modifier) {
 
         Image(
             painter = painterResource(id = R.drawable.pe),
+            contentDescription = "",
         )
     }
 }
