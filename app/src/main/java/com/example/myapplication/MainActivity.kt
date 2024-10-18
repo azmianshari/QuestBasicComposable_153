@@ -76,7 +76,8 @@ fun BasicColumn(modifier: Modifier) {
             fontSize = 20.sp,
             fontWeight = FontWeight.Normal)
         Spacer(modifier = Modifier.padding(0.dp))
-        Text("Muhammad Azmi Anshari")
+        Text("Muhammad Azmi Anshari",
+                fontSize = 18.sp,)
     }
 }
 
