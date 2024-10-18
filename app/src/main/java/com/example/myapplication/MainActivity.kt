@@ -73,6 +73,7 @@ fun BasicColumn(modifier: Modifier) {
         )
 
         Spacer(modifier = Modifier.padding(5.dp))
+
         Text("Nama",
             fontSize = 20.sp,
             fontWeight = FontWeight.Normal)
@@ -83,8 +84,11 @@ fun BasicColumn(modifier: Modifier) {
                 color = Color.Red)
 
         Spacer(modifier = Modifier.padding(0.dp))
+
         Text("20220140153",
             fontSize = 30.sp,)
+
+        Spacer(modifier = Modifier.padding(0.dp))
     }
 }
 
